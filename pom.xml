@@ -36,8 +36,8 @@
   </scm>
 
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>9</maven.compiler.source>
+    <maven.compiler.target>9</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <checkstyle.config.location>src/conf/checkstyle/configuration.xml</checkstyle.config.location>
@@ -48,7 +48,7 @@
     <junit.version>4.12</junit.version>
     <k3po.version>3.0.0-alpha-97</k3po.version>
     <k3po.nukleus.ext.version>0.37</k3po.nukleus.ext.version>
-    <nukleus.spec.version>0.31</nukleus.spec.version>
+    <nukleus.spec.version>develop-SNAPSHOT</nukleus.spec.version>
     <nukleus.plugin.version>0.33</nukleus.plugin.version>
   </properties>
 

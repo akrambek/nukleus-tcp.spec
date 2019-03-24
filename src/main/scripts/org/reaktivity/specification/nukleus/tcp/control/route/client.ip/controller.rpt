@@ -31,6 +31,7 @@ write [0x01]
 write 0L
 write ${core:string("tcp#0")}
 write ${core:string("127.0.0.1:8080")}
+write [0x00]
 write flush
 
 read 0x40000001

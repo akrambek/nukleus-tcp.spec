@@ -33,6 +33,7 @@ write [0x00]
 write ${routeAuthorization}
 write ${core:string("tcp#0.0.0.0:8080")}
 write ${core:string("target#0")}
+write [0x00]
 write flush
 
 read 0x40000001
